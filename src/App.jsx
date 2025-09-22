@@ -1,10 +1,33 @@
 import "./App.css";
 
+function Button({ onSmash, children }) {
+  return <button onClick={onSmash}>{children}</button>;
+}
+
+function PlayButton({ movieName }) {
+  function handlePlayClick() {
+    alert(`Playing ${movieName}!`);
+  }
+
+  return <Button onSmash={handlePlayClick}>Play</Button>;
+}
+
+function UploadButton() {
+  return <Button onSmash={() => alert("Uploading!")}>Upload Image</Button>;
+}
+
 function App() {
   return (
-    <>
-      <h3 className="text-3xl text-center">Reactive Accelerator</h3>
-    </>
+    <div className="h-screen w-full max-w-7xl mx-auto">
+      <button
+        onClick={() => alert("Btn Clicked!")}
+        className="bg-green-800 px-2 rounded-md m-2 text-white"
+      >
+        Click
+      </button>
+      <PlayButton movieName="Flow" />
+      <UploadButton />
+    </div>
   );
 }
 
