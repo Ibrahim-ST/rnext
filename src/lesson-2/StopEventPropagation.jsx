@@ -4,11 +4,11 @@ import Button from "../components/Button";
 const StopEventPropagation = () => {
   return (
     <div
-      onClick={() => alert("Toolbar Clicked")}
+      onClick={() => console.log("Toolbar Clicked")}
       className="border rounded-md w-full flex justify-center"
     >
-      <Button onClick={() => alert("Playing!")}>Play Movie</Button>
-      <Button onClick={() => alert("Uploading!")}>Upload Image</Button>
+      <Button onSmash={() => console.log("Playing!")}>Play Movie</Button>
+      <Button onSmash={() => console.log("Uploading!")}>Upload Image</Button>
     </div>
   );
 };
