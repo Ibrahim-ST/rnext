@@ -1,12 +1,10 @@
 import "./App.css";
-import PreventingDefault from "./lesson-2/PreventingDefault";
-import StopEventPropagation from "./lesson-2/StopEventPropagation";
+import ComponentsMemory from "./lesson-3/ComponentsMemory"; 
 
 function App() {
   return (
     <div className="h-screen w-full max-w-7xl mx-auto flex justify-center items-center">
-      {/* <StopEventPropagation /> */}
-      <PreventingDefault />
+      <ComponentsMemory />
     </div>
   );
 }
