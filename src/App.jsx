@@ -1,10 +1,10 @@
 import "./App.css";
-import Lesson_1 from "./lessons/Lesson_1";
+import AddingEvent from "./lesson-1/AddingEvent";
 
 function App() {
   return (
     <div className="h-screen w-full max-w-7xl mx-auto flex justify-center items-center">
-      <Lesson_1 />
+      <AddingEvent />
     </div>
   );
 }

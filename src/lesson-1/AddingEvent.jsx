@@ -1,6 +1,3 @@
-/* eslint-disable react-refresh/only-export-components */
-
-
 function Button({ onSmash, children }) {
   return <button onClick={onSmash}>{children}</button>;
 }
@@ -17,7 +14,7 @@ function UploadButton() {
   return <Button onSmash={() => alert("Uploading!")}>Upload Image</Button>;
 }
 
-const Lesson_1 = () => {
+const AddingEvent = () => {
   return (
     <div>
       <button
@@ -32,4 +29,4 @@ const Lesson_1 = () => {
   );
 };
 
-export default Lesson_1;
+export default AddingEvent;
