@@ -1,10 +1,12 @@
 import "./App.css";
-import Lesson_1 from "./lessons/Lesson_2";
+import PreventingDefault from "./lesson-2/PreventingDefault";
+import StopEventPropagation from "./lesson-2/StopEventPropagation";
 
 function App() {
   return (
     <div className="h-screen w-full max-w-7xl mx-auto flex justify-center items-center">
-      <Lesson_1 />
+      {/* <StopEventPropagation /> */}
+      <PreventingDefault />
     </div>
   );
 }
