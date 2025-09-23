@@ -7,6 +7,7 @@ function App() {
     <div className="h-screen w-full max-w-7xl mx-auto flex justify-center items-center">
       {/* <ComponentsMemory /> */}
       <MultipleState />
+      <MultipleState />
     </div>
   );
 }
