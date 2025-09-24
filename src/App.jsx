@@ -1,6 +1,6 @@
 import "./App.css";
-import ComponentsMemory from "./lesson-3/ComponentsMemory"; 
-import MultipleState from "./lesson-3/MultipleState";
+import ComponentsMemory from "./2.3/lesson-3/ComponentsMemory"; 
+import MultipleState from "./2.3/lesson-3/MultipleState";
 
 function App() {
   return (
