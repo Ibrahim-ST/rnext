@@ -11,7 +11,7 @@ const MultipleState = () => {
     function handleNextClick() {
       setIndex(index + 1);
     }
-
+ 
     function handleMoreClick() {
       setShowMore(!showMore);
     }
