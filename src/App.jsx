@@ -1,5 +1,5 @@
 import "./App.css";
-import AddingEvent from "./lesson-1/AddingEvent";
+import AddingEvent from "./2.1/lesson-1/AddingEvent";
 
 function App() {
   return (
