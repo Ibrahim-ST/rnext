@@ -15,6 +15,6 @@ const Button = ({ onSmash, children }) => {
   );
 };
 
-export default Button;
+export default Button; 
 
 
