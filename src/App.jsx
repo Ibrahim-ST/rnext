@@ -1,6 +1,6 @@
 import "./App.css";
-import PreventingDefault from "./lesson-2/PreventingDefault";
-import StopEventPropagation from "./lesson-2/StopEventPropagation";
+import PreventingDefault from "./2.2/lesson-2/PreventingDefault";
+import StopEventPropagation from "./2.2/lesson-2/StopEventPropagation";
 
 function App() {
   return (
