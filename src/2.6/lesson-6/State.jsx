@@ -29,5 +29,5 @@ export default State;
 
 
 function sendMessage(message) {
-  // ...
+  console.log(message);
 }
