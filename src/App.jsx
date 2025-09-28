@@ -6,6 +6,7 @@ import BatchState from './2.7/lesson-7/BatchState';
 import UpdatingObjects from './2.8/lesson-8/UpdatingObjects';
 import SpreadingObjects from './2.8/lesson-8/SpreadingObjects';
 import DynamicStateChange from './2.8/lesson-8/DynamicStateChange';
+import UpdatingNestedObjects from './2.8/lesson-8/UpdatingNestedObjects';
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
       {/* <BatchState /> */}
       {/* <UpdatingObjects />  */}
       {/* <SpreadingObjects /> */}
-      <DynamicStateChange />
+      {/* <DynamicStateChange />  */}
+      <UpdatingNestedObjects />
     </div>
   );
 };
