@@ -8,6 +8,7 @@ import SpreadingObjects from './2.8/lesson-8/SpreadingObjects';
 import DynamicStateChange from './2.8/lesson-8/DynamicStateChange';
 import UpdatingNestedObjects from './2.8/lesson-8/UpdatingNestedObjects';
 import Immer from './2.8/lesson-8/UseImmer';
+import UpdatingArrays from './2.8/lesson-8/UpdatingArrays';
 
 const App = () => {
   return (
@@ -20,7 +21,8 @@ const App = () => {
       {/* <SpreadingObjects /> */}
       {/* <DynamicStateChange />  */}
       {/* <UpdatingNestedObjects />  */}
-      <Immer />
+      {/* <Immer /> */}
+      <UpdatingArrays />
     </div>
   );
 };
