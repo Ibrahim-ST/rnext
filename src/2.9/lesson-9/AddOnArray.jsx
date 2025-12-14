@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 let nextId = 0;
 
-const UpdatingArrays = () => {
+const AddOnArray = () => {
   const [name, setName] = useState("");
   const [artists, setArtists] = useState([]);
 
@@ -27,4 +27,4 @@ const UpdatingArrays = () => {
   );
 };
 
-export default UpdatingArrays;
+export default AddOnArray;
