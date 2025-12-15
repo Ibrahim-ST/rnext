@@ -12,8 +12,8 @@ import RemoveFromArray from "./2.9/lesson-9/RemoveFromArray";
 import TransformArray from "./2.9/lesson-9/TransformArray";
 
 import Pointer from "./3.4/Lesson-4/Pointer";
-import Form from "./3.4/Lesson-4/Form";
 import FeedbackForm from "./3.5/Lesson-5/Form";
+import Form from './3.6/Lesson-6/Form';
 
 const App = () => {
   return (
@@ -33,7 +33,8 @@ const App = () => {
       {/* <Form /> */}
       {/* <Pointer /> */}
       {/* <Form /> */}
-      <FeedbackForm />
+      {/* <FeedbackForm /> */}
+      <Form />
     </div>
   );
 };
