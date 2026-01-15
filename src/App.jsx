@@ -14,6 +14,8 @@ import TransformArray from "./2.9/lesson-9/TransformArray";
 import Pointer from "./3.4/Lesson-4/Pointer";
 import FeedbackForm from "./3.5/Lesson-5/Form";
 import Form from './3.6/Lesson-6/Form';
+import Travel from "./3.7/Lesson-7/Travel";
+import PassingProps from "./3.16/Lesson-16/PassingProps";
 
 const App = () => {
   return (
@@ -34,7 +36,9 @@ const App = () => {
       {/* <Pointer /> */}
       {/* <Form /> */}
       {/* <FeedbackForm /> */}
-      <Form />
+      {/* <Form /> */}
+      {/* <Travel /> */}
+      <PassingProps />
     </div>
   );
 };
