@@ -16,6 +16,7 @@ import FeedbackForm from "./3.5/Lesson-5/Form";
 import Form from './3.6/Lesson-6/Form';
 import Travel from "./3.7/Lesson-7/Travel";
 import PassingProps from "./3.16/Lesson-16/PassingProps";
+import ProfilePage from "./3.18/Lesson-18/ProfilePage";
 
 const App = () => {
   return (
@@ -38,7 +39,8 @@ const App = () => {
       {/* <FeedbackForm /> */}
       {/* <Form /> */}
       {/* <Travel /> */}
-      <PassingProps />
+      {/* <PassingProps /> */}
+      <ProfilePage />
     </div>
   );
 };
